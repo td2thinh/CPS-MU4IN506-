@@ -1,0 +1,33 @@
+package cps.ast;
+
+import cps.interfaces.IRand;
+
+public class CRand implements IRand{
+	private final double randConst;
+	
+	
+	
+	
+	
+
+
+
+	public double getRandConst() {
+		return randConst;
+	}
+
+
+
+
+
+
+
+
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

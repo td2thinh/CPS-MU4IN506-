@@ -1,0 +1,26 @@
+package cps.ast;
+
+import cps.interfaces.IDir;
+
+public class Dir implements IDir {
+	
+	private final Direction dir;
+	
+	public Dir(Direction dir) {
+		// TODO Auto-generated constructor stub
+		this.dir=dir;
+	}
+	
+	
+	@Override
+	public Object eval(Object[] context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	public Direction getDir() {
+		return dir;
+	}
+	
+}

@@ -1,0 +1,7 @@
+package cps.ast;
+
+import cps.interfaces.IDir;
+
+public class Dir implements IDir {
+
+}

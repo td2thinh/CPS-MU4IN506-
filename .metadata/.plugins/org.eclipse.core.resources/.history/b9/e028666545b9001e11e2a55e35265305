@@ -1,0 +1,41 @@
+package cps.ast;
+
+import java.util.Stack;
+
+import cps.interfaces.IDir;
+import cps.interfaces.IDirs;
+import cps.interfaces.IParamContext;
+
+public class RDirs implements IDirs{
+	private IDir direction;
+	private IDirs directions;
+
+	
+	
+	public RDirs(IDir direction, IDirs directions) {
+		super();
+		this.direction = direction;
+		this.directions = directions;
+	}
+	public IDir getDirection() {
+		return direction;
+	}
+	public void setDirection(IDir direction) {
+		this.direction = direction;
+	}
+	public IDirs getDirections() {
+		return directions;
+	}
+	public void setDirections(IDirs directions) {
+		this.directions = directions;
+	}	
+	
+
+	@Override
+	public Stack<Direction> eval(IParamContext context) {
+		Direction dirEval = (Direction) this.direction.eval(context);
+		Stack<Direction> listDirs = (Stack<Direction>) this.directions.eval(context); 
+		listDirs.push(dirEval);
+		return listDirs;
+	}
+}

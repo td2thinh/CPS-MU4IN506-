@@ -1,0 +1,36 @@
+package cps.ast;
+
+import cps.interfaces.IDir;
+import cps.interfaces.IDirs;
+
+public class RDirs implements IDirs{
+	private IDir direction;
+	private IDirs directions;
+
+	
+	
+	public RDirs(IDir direction, IDirs directions) {
+		super();
+		this.direction = direction;
+		this.directions = directions;
+	}
+	public IDir getDirection() {
+		return direction;
+	}
+	public void setDirection(IDir direction) {
+		this.direction = direction;
+	}
+	public IDirs getDirections() {
+		return directions;
+	}
+	public void setDirections(IDirs directions) {
+		this.directions = directions;
+	}	
+	
+
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

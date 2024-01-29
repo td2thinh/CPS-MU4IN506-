@@ -1,0 +1,12 @@
+package cps.ast;
+
+import cps.interfaces.ICexp;
+import cps.interfaces.IRand;
+
+public class EQCexp implements ICexp{
+	private IRand rand1;
+	private IRand rand2;
+	
+	
+
+}

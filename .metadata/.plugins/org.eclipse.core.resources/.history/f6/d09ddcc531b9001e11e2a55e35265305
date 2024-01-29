@@ -1,0 +1,17 @@
+package cps.ast;
+
+import cps.interfaces.ICont;
+import cps.interfaces.IDirs;
+
+public class DCont implements ICont{
+	private int jumps;
+	private IDirs direction;
+
+	
+	
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

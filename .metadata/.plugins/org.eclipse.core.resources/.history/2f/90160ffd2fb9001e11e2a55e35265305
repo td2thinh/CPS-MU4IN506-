@@ -1,0 +1,10 @@
+package cps.ast;
+
+import cps.interfaces.IBase;
+
+public class RBase implements IBase {
+	public RBase() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

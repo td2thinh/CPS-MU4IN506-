@@ -1,0 +1,7 @@
+package cps.ast;
+
+import java.awt.Point;
+
+public class Position {
+	Point
+}

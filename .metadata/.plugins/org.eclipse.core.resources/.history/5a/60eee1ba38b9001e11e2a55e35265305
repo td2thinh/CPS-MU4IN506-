@@ -1,0 +1,7 @@
+package cps.interfaces;
+
+public abstract interface IEval {
+	
+	Object eval(Object context);  
+
+}

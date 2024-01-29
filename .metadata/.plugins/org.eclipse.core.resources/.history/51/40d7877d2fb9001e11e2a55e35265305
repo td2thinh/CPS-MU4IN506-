@@ -1,0 +1,21 @@
+package cps.ast;
+
+import java.awt.Point;
+
+import cps.interfaces.IBase;
+
+public class ABase implements IBase {
+	private final Position position;
+	
+	public ABase(Position position) {
+		// TODO Auto-generated constructor stub
+		this.position=position;
+	}
+	
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		position.
+		return null;
+	}
+}

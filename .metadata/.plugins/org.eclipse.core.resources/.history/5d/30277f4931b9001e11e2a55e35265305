@@ -1,0 +1,11 @@
+package cps.ast;
+
+import cps.interfaces.IDir;
+import cps.interfaces.IDirs;
+
+public class FDirs implements IDirs{
+
+	private IDir direction;
+	
+	
+}

@@ -1,0 +1,17 @@
+package cps.ast;
+
+public class Position {
+	
+	private double pos_x;
+	private double pos_y;
+	
+	public Position(double x , double y) {
+		// TODO Auto-generated constructor stub
+		this.pos_x=x;
+		this.pos_y=y;
+	}
+	
+	
+	
+
+}

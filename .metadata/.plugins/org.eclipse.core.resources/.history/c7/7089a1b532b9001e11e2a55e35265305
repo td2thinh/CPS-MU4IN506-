@@ -1,0 +1,15 @@
+package cps.ast;
+
+import cps.interfaces.IRand;
+
+public class CRand implements IRand{
+	private final double rConstant;
+	
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

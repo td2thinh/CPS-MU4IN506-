@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.awt.Point"/>
+    <fullyQualifiedTypeName name="cps.ast.Dir"/>
+    <fullyQualifiedTypeName name="cps.interfaces.IDir"/>
+    <fullyQualifiedTypeName name="cps.interfaces.IDirs"/>
+    <fullyQualifiedTypeName name="cps.interfaces.IBase"/>
+    <fullyQualifiedTypeName name="cps.interfaces.IEval"/>
+    <fullyQualifiedTypeName name="cps.interfaces.IRand"/>
+    <fullyQualifiedTypeName name="cps.interfaces.ICexp"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="cps.interfaces.IQuery"/>
+    <fullyQualifiedTypeName name="cps.interfaces.IGather"/>
+    <fullyQualifiedTypeName name="cps.interfaces.ICont"/>
+    <fullyQualifiedTypeName name="cps.interfaces.IBExp"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="cps.ast.Position"/>
+    <fullyQualifiedTypeName name="cps.ast.Direction"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

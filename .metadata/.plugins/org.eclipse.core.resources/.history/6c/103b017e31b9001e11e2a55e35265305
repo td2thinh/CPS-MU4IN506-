@@ -1,0 +1,7 @@
+package cps.ast;
+
+import cps.interfaces.ICont;
+
+public class ECont implements ICont {
+
+}

@@ -1,0 +1,29 @@
+package cps.ast;
+
+import cps.interfaces.IQuery;
+
+public class GQuery implements IQuery{
+	private final IGather gather;
+	private final ICont continuation;
+	
+	public GQuery(IGather gather, ICont continuation) {
+		super();
+		this.gather = gather;
+		this.continuation = continuation;
+	}
+	public IGather getGather() {
+		return gather;
+	}
+
+	public ICont getContinuation() {
+		return continuation;
+	}
+
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

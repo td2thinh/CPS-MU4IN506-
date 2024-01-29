@@ -1,0 +1,7 @@
+package cps.ast;
+
+import cps.interfaces.IRand;
+
+public class CRand implements IRand{
+
+}

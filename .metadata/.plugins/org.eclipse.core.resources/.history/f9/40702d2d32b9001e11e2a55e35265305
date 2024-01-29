@@ -1,0 +1,9 @@
+package cps.ast;
+
+import cps.interfaces.IRand;
+
+public class SRand implements IRand{
+	private final String sensorId;
+	
+
+}

@@ -1,0 +1,15 @@
+package cps.ast;
+
+import cps.interfaces.IRand;
+
+public class SRand implements IRand{
+	private final String sensorId;
+	
+	
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,21 @@
+package cps.ast;
+
+import cps.interfaces.IDir;
+import cps.interfaces.IDirs;
+
+public class FDirs implements IDirs{
+
+	private IDir direction;
+	
+	public FDirs(IDir direction) {
+		// TODO Auto-generated constructor stub
+		this.direction = direction;
+	}
+	
+	@Override
+	public Object eval(Object[] context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

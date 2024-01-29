@@ -1,0 +1,16 @@
+package cps.ast;
+
+import cps.interfaces.ICont;
+
+public class ECont implements ICont {
+	
+	public ECont() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

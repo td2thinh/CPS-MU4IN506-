@@ -1,0 +1,13 @@
+package cps.ast;
+
+import cps.interfaces.IDir;
+
+public class Dir implements IDir {
+	
+	
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

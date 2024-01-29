@@ -1,0 +1,22 @@
+package cps.ast;
+
+import cps.interfaces.IBExp;
+
+public class CExpBExp implements IBExp {
+	private final ICExp cexpr;
+	public CExpBExp(ICExp expr) {
+		super();
+		this.cexpr = expr;
+	}
+	public IBExp getExpr1() {
+		return cexpr;
+	}
+	
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

@@ -1,0 +1,22 @@
+package cps.ast;
+
+import cps.interfaces.IBExp;
+
+public class SBExp implements IBExp {
+	private final String sensorId;
+	public SBExp(String sensorId) {
+		super();
+		this.sensorId = sensorId;
+	}
+	public String getSensorId() {
+		return sensorId;
+	}
+	
+	@Override
+	public Object eval(Object context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

@@ -1,0 +1,18 @@
+package cps.ast;
+
+import cps.interfaces.IGather;
+
+public class FGather implements IGather{
+	private final String sensorId;
+	public FGather(String sensorId) {
+		this.sensorId = sensorId;
+	}
+	public String getSensorId() {
+		return sensorId;
+	}
+	@Override
+	public Object eval(Object[] context) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
